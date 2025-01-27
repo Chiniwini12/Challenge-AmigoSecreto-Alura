@@ -30,7 +30,7 @@ function agregarAmigo() {
 function sortearAmigo() {
     asignarTextoElemento("listaAmigos", "");
     amigoSecreto = ListaAmigos[Math.floor(Math.random()*ListaAmigos.length)];
-    asignarTextoElemento("resultado", `Tu amigo secreto es:${amigoSecreto}`);
+    asignarTextoElemento("resultado", `Tu amigo secreto es: ${amigoSecreto}`);
     
 }
 
